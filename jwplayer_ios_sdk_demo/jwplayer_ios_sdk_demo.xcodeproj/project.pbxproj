@@ -15,6 +15,8 @@
 		42061F462475D0CC00E47631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42061F442475D0CC00E47631 /* LaunchScreen.storyboard */; };
 		42061F512475D0CD00E47631 /* jwplayer_ios_sdk_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F502475D0CD00E47631 /* jwplayer_ios_sdk_demoTests.swift */; };
 		42061F5C2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F5B2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.swift */; };
+		42061F712475D71900E47631 /* JWPlayer_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42061F6F2475D70600E47631 /* JWPlayer_iOS_SDK.framework */; };
+		42061F722475D71900E47631 /* JWPlayer_iOS_SDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42061F6F2475D70600E47631 /* JWPlayer_iOS_SDK.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		42061F732475D71900E47631 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				42061F722475D71900E47631 /* JWPlayer_iOS_SDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		42061F362475D0CA00E47631 /* jwplayer_ios_sdk_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jwplayer_ios_sdk_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42061F392475D0CA00E47631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,8 @@
 		42061F572475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jwplayer_ios_sdk_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42061F5B2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jwplayer_ios_sdk_demoUITests.swift; sourceTree = "<group>"; };
 		42061F5D2475D0CD00E47631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42061F6C2475D3A000E47631 /* jwplayer_ios_sdk_demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jwplayer_ios_sdk_demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		42061F6F2475D70600E47631 /* JWPlayer_iOS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JWPlayer_iOS_SDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42061F712475D71900E47631 /* JWPlayer_iOS_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +126,7 @@
 				42061F422475D0CC00E47631 /* Assets.xcassets */,
 				42061F442475D0CC00E47631 /* LaunchScreen.storyboard */,
 				42061F472475D0CC00E47631 /* Info.plist */,
+				42061F6C2475D3A000E47631 /* jwplayer_ios_sdk_demo-Bridging-Header.h */,
 			);
 			path = jwplayer_ios_sdk_demo;
 			sourceTree = "<group>";
@@ -132,6 +152,7 @@
 		42061F692475D0DC00E47631 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42061F6F2475D70600E47631 /* JWPlayer_iOS_SDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,6 +167,7 @@
 				42061F322475D0CA00E47631 /* Sources */,
 				42061F332475D0CA00E47631 /* Frameworks */,
 				42061F342475D0CA00E47631 /* Resources */,
+				42061F732475D71900E47631 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,6 +226,7 @@
 				TargetAttributes = {
 					42061F352475D0CA00E47631 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 					42061F4B2475D0CC00E47631 = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -442,8 +465,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GB658HTQ2Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = jwplayer_ios_sdk_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +479,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jwplayer.kurt.jwplayer-ios-sdk-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "jwplayer_ios_sdk_demo/jwplayer_ios_sdk_demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,8 +490,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GB658HTQ2Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = jwplayer_ios_sdk_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,6 +504,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jwplayer.kurt.jwplayer-ios-sdk-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "jwplayer_ios_sdk_demo/jwplayer_ios_sdk_demo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let config = JWConfig(contentURL: "https://cdn.jwplayer.com/manifests/F8gmWibY.m3u8")
     }
 
 
