@@ -7,69 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42061EF92475BDFB00E47631 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061EF82475BDFB00E47631 /* AppDelegate.swift */; };
-		42061EFB2475BDFB00E47631 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061EFA2475BDFB00E47631 /* SceneDelegate.swift */; };
-		42061EFD2475BDFB00E47631 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061EFC2475BDFB00E47631 /* ContentView.swift */; };
-		42061EFF2475BDFD00E47631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42061EFE2475BDFD00E47631 /* Assets.xcassets */; };
-		42061F022475BDFD00E47631 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42061F012475BDFD00E47631 /* Preview Assets.xcassets */; };
-		42061F052475BDFD00E47631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42061F032475BDFD00E47631 /* LaunchScreen.storyboard */; };
-		42061F102475BDFD00E47631 /* jwplayer_ios_sdk_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F0F2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests.swift */; };
-		42061F1B2475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F1A2475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.swift */; };
-		42061F2C2475CA3200E47631 /* JWPlayer_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42061F2B2475CA3200E47631 /* JWPlayer_iOS_SDK.framework */; };
+		42061F3A2475D0CA00E47631 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F392475D0CA00E47631 /* AppDelegate.swift */; };
+		42061F3C2475D0CA00E47631 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F3B2475D0CA00E47631 /* SceneDelegate.swift */; };
+		42061F3E2475D0CA00E47631 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F3D2475D0CA00E47631 /* ViewController.swift */; };
+		42061F412475D0CA00E47631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42061F3F2475D0CA00E47631 /* Main.storyboard */; };
+		42061F432475D0CC00E47631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42061F422475D0CC00E47631 /* Assets.xcassets */; };
+		42061F462475D0CC00E47631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42061F442475D0CC00E47631 /* LaunchScreen.storyboard */; };
+		42061F512475D0CD00E47631 /* jwplayer_ios_sdk_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F502475D0CD00E47631 /* jwplayer_ios_sdk_demoTests.swift */; };
+		42061F5C2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F5B2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		42061F0C2475BDFD00E47631 /* PBXContainerItemProxy */ = {
+		42061F4D2475D0CC00E47631 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 42061EED2475BDFB00E47631 /* Project object */;
+			containerPortal = 42061F2E2475D0CA00E47631 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42061EF42475BDFB00E47631;
+			remoteGlobalIDString = 42061F352475D0CA00E47631;
 			remoteInfo = jwplayer_ios_sdk_demo;
 		};
-		42061F172475BDFD00E47631 /* PBXContainerItemProxy */ = {
+		42061F582475D0CD00E47631 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 42061EED2475BDFB00E47631 /* Project object */;
+			containerPortal = 42061F2E2475D0CA00E47631 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42061EF42475BDFB00E47631;
+			remoteGlobalIDString = 42061F352475D0CA00E47631;
 			remoteInfo = jwplayer_ios_sdk_demo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		42061EF52475BDFB00E47631 /* jwplayer_ios_sdk_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jwplayer_ios_sdk_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		42061EF82475BDFB00E47631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42061EFA2475BDFB00E47631 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42061EFC2475BDFB00E47631 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		42061EFE2475BDFD00E47631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		42061F012475BDFD00E47631 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		42061F042475BDFD00E47631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		42061F062475BDFD00E47631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42061F0B2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jwplayer_ios_sdk_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42061F0F2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jwplayer_ios_sdk_demoTests.swift; sourceTree = "<group>"; };
-		42061F112475BDFD00E47631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42061F162475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jwplayer_ios_sdk_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42061F1A2475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jwplayer_ios_sdk_demoUITests.swift; sourceTree = "<group>"; };
-		42061F1C2475BDFD00E47631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42061F2B2475CA3200E47631 /* JWPlayer_iOS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JWPlayer_iOS_SDK.framework; sourceTree = "<group>"; };
+		42061F362475D0CA00E47631 /* jwplayer_ios_sdk_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jwplayer_ios_sdk_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42061F392475D0CA00E47631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42061F3B2475D0CA00E47631 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42061F3D2475D0CA00E47631 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42061F402475D0CA00E47631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42061F422475D0CC00E47631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42061F452475D0CC00E47631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42061F472475D0CC00E47631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42061F4C2475D0CC00E47631 /* jwplayer_ios_sdk_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jwplayer_ios_sdk_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42061F502475D0CD00E47631 /* jwplayer_ios_sdk_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jwplayer_ios_sdk_demoTests.swift; sourceTree = "<group>"; };
+		42061F522475D0CD00E47631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42061F572475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jwplayer_ios_sdk_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42061F5B2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jwplayer_ios_sdk_demoUITests.swift; sourceTree = "<group>"; };
+		42061F5D2475D0CD00E47631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42061EF22475BDFB00E47631 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42061F2C2475CA3200E47631 /* JWPlayer_iOS_SDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42061F082475BDFD00E47631 /* Frameworks */ = {
+		42061F332475D0CA00E47631 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42061F132475BDFD00E47631 /* Frameworks */ = {
+		42061F492475D0CC00E47631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42061F542475D0CD00E47631 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,71 +76,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42061EEC2475BDFB00E47631 = {
+		42061F2D2475D0CA00E47631 = {
 			isa = PBXGroup;
 			children = (
-				42061EF72475BDFB00E47631 /* jwplayer_ios_sdk_demo */,
-				42061F0E2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests */,
-				42061F192475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests */,
-				42061EF62475BDFB00E47631 /* Products */,
-				42061F282475C46A00E47631 /* Frameworks */,
+				42061F382475D0CA00E47631 /* jwplayer_ios_sdk_demo */,
+				42061F4F2475D0CC00E47631 /* jwplayer_ios_sdk_demoTests */,
+				42061F5A2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests */,
+				42061F372475D0CA00E47631 /* Products */,
+				42061F692475D0DC00E47631 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		42061EF62475BDFB00E47631 /* Products */ = {
+		42061F372475D0CA00E47631 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42061EF52475BDFB00E47631 /* jwplayer_ios_sdk_demo.app */,
-				42061F0B2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests.xctest */,
-				42061F162475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.xctest */,
+				42061F362475D0CA00E47631 /* jwplayer_ios_sdk_demo.app */,
+				42061F4C2475D0CC00E47631 /* jwplayer_ios_sdk_demoTests.xctest */,
+				42061F572475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		42061EF72475BDFB00E47631 /* jwplayer_ios_sdk_demo */ = {
+		42061F382475D0CA00E47631 /* jwplayer_ios_sdk_demo */ = {
 			isa = PBXGroup;
 			children = (
-				42061EF82475BDFB00E47631 /* AppDelegate.swift */,
-				42061EFA2475BDFB00E47631 /* SceneDelegate.swift */,
-				42061EFC2475BDFB00E47631 /* ContentView.swift */,
-				42061EFE2475BDFD00E47631 /* Assets.xcassets */,
-				42061F032475BDFD00E47631 /* LaunchScreen.storyboard */,
-				42061F062475BDFD00E47631 /* Info.plist */,
-				42061F002475BDFD00E47631 /* Preview Content */,
+				42061F392475D0CA00E47631 /* AppDelegate.swift */,
+				42061F3B2475D0CA00E47631 /* SceneDelegate.swift */,
+				42061F3D2475D0CA00E47631 /* ViewController.swift */,
+				42061F3F2475D0CA00E47631 /* Main.storyboard */,
+				42061F422475D0CC00E47631 /* Assets.xcassets */,
+				42061F442475D0CC00E47631 /* LaunchScreen.storyboard */,
+				42061F472475D0CC00E47631 /* Info.plist */,
 			);
 			path = jwplayer_ios_sdk_demo;
 			sourceTree = "<group>";
 		};
-		42061F002475BDFD00E47631 /* Preview Content */ = {
+		42061F4F2475D0CC00E47631 /* jwplayer_ios_sdk_demoTests */ = {
 			isa = PBXGroup;
 			children = (
-				42061F012475BDFD00E47631 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		42061F0E2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests */ = {
-			isa = PBXGroup;
-			children = (
-				42061F0F2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests.swift */,
-				42061F112475BDFD00E47631 /* Info.plist */,
+				42061F502475D0CD00E47631 /* jwplayer_ios_sdk_demoTests.swift */,
+				42061F522475D0CD00E47631 /* Info.plist */,
 			);
 			path = jwplayer_ios_sdk_demoTests;
 			sourceTree = "<group>";
 		};
-		42061F192475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests */ = {
+		42061F5A2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				42061F1A2475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.swift */,
-				42061F1C2475BDFD00E47631 /* Info.plist */,
+				42061F5B2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.swift */,
+				42061F5D2475D0CD00E47631 /* Info.plist */,
 			);
 			path = jwplayer_ios_sdk_demoUITests;
 			sourceTree = "<group>";
 		};
-		42061F282475C46A00E47631 /* Frameworks */ = {
+		42061F692475D0DC00E47631 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				42061F2B2475CA3200E47631 /* JWPlayer_iOS_SDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,13 +139,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42061EF42475BDFB00E47631 /* jwplayer_ios_sdk_demo */ = {
+		42061F352475D0CA00E47631 /* jwplayer_ios_sdk_demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42061F1F2475BDFD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demo" */;
+			buildConfigurationList = 42061F602475D0CD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demo" */;
 			buildPhases = (
-				42061EF12475BDFB00E47631 /* Sources */,
-				42061EF22475BDFB00E47631 /* Frameworks */,
-				42061EF32475BDFB00E47631 /* Resources */,
+				42061F322475D0CA00E47631 /* Sources */,
+				42061F332475D0CA00E47631 /* Frameworks */,
+				42061F342475D0CA00E47631 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -165,69 +153,69 @@
 			);
 			name = jwplayer_ios_sdk_demo;
 			productName = jwplayer_ios_sdk_demo;
-			productReference = 42061EF52475BDFB00E47631 /* jwplayer_ios_sdk_demo.app */;
+			productReference = 42061F362475D0CA00E47631 /* jwplayer_ios_sdk_demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42061F0A2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests */ = {
+		42061F4B2475D0CC00E47631 /* jwplayer_ios_sdk_demoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42061F222475BDFD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demoTests" */;
+			buildConfigurationList = 42061F632475D0CD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demoTests" */;
 			buildPhases = (
-				42061F072475BDFD00E47631 /* Sources */,
-				42061F082475BDFD00E47631 /* Frameworks */,
-				42061F092475BDFD00E47631 /* Resources */,
+				42061F482475D0CC00E47631 /* Sources */,
+				42061F492475D0CC00E47631 /* Frameworks */,
+				42061F4A2475D0CC00E47631 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42061F0D2475BDFD00E47631 /* PBXTargetDependency */,
+				42061F4E2475D0CC00E47631 /* PBXTargetDependency */,
 			);
 			name = jwplayer_ios_sdk_demoTests;
 			productName = jwplayer_ios_sdk_demoTests;
-			productReference = 42061F0B2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests.xctest */;
+			productReference = 42061F4C2475D0CC00E47631 /* jwplayer_ios_sdk_demoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		42061F152475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests */ = {
+		42061F562475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42061F252475BDFD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demoUITests" */;
+			buildConfigurationList = 42061F662475D0CD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demoUITests" */;
 			buildPhases = (
-				42061F122475BDFD00E47631 /* Sources */,
-				42061F132475BDFD00E47631 /* Frameworks */,
-				42061F142475BDFD00E47631 /* Resources */,
+				42061F532475D0CD00E47631 /* Sources */,
+				42061F542475D0CD00E47631 /* Frameworks */,
+				42061F552475D0CD00E47631 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42061F182475BDFD00E47631 /* PBXTargetDependency */,
+				42061F592475D0CD00E47631 /* PBXTargetDependency */,
 			);
 			name = jwplayer_ios_sdk_demoUITests;
 			productName = jwplayer_ios_sdk_demoUITests;
-			productReference = 42061F162475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.xctest */;
+			productReference = 42061F572475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		42061EED2475BDFB00E47631 /* Project object */ = {
+		42061F2E2475D0CA00E47631 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = JWPlayer;
 				TargetAttributes = {
-					42061EF42475BDFB00E47631 = {
+					42061F352475D0CA00E47631 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					42061F0A2475BDFD00E47631 = {
+					42061F4B2475D0CC00E47631 = {
 						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 42061EF42475BDFB00E47631;
+						TestTargetID = 42061F352475D0CA00E47631;
 					};
-					42061F152475BDFD00E47631 = {
+					42061F562475D0CD00E47631 = {
 						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 42061EF42475BDFB00E47631;
+						TestTargetID = 42061F352475D0CA00E47631;
 					};
 				};
 			};
-			buildConfigurationList = 42061EF02475BDFB00E47631 /* Build configuration list for PBXProject "jwplayer_ios_sdk_demo" */;
+			buildConfigurationList = 42061F312475D0CA00E47631 /* Build configuration list for PBXProject "jwplayer_ios_sdk_demo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,37 +223,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 42061EEC2475BDFB00E47631;
-			productRefGroup = 42061EF62475BDFB00E47631 /* Products */;
+			mainGroup = 42061F2D2475D0CA00E47631;
+			productRefGroup = 42061F372475D0CA00E47631 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42061EF42475BDFB00E47631 /* jwplayer_ios_sdk_demo */,
-				42061F0A2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests */,
-				42061F152475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests */,
+				42061F352475D0CA00E47631 /* jwplayer_ios_sdk_demo */,
+				42061F4B2475D0CC00E47631 /* jwplayer_ios_sdk_demoTests */,
+				42061F562475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		42061EF32475BDFB00E47631 /* Resources */ = {
+		42061F342475D0CA00E47631 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42061F052475BDFD00E47631 /* LaunchScreen.storyboard in Resources */,
-				42061F022475BDFD00E47631 /* Preview Assets.xcassets in Resources */,
-				42061EFF2475BDFD00E47631 /* Assets.xcassets in Resources */,
+				42061F462475D0CC00E47631 /* LaunchScreen.storyboard in Resources */,
+				42061F432475D0CC00E47631 /* Assets.xcassets in Resources */,
+				42061F412475D0CA00E47631 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42061F092475BDFD00E47631 /* Resources */ = {
+		42061F4A2475D0CC00E47631 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42061F142475BDFD00E47631 /* Resources */ = {
+		42061F552475D0CD00E47631 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,52 +263,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42061EF12475BDFB00E47631 /* Sources */ = {
+		42061F322475D0CA00E47631 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42061EF92475BDFB00E47631 /* AppDelegate.swift in Sources */,
-				42061EFB2475BDFB00E47631 /* SceneDelegate.swift in Sources */,
-				42061EFD2475BDFB00E47631 /* ContentView.swift in Sources */,
+				42061F3E2475D0CA00E47631 /* ViewController.swift in Sources */,
+				42061F3A2475D0CA00E47631 /* AppDelegate.swift in Sources */,
+				42061F3C2475D0CA00E47631 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42061F072475BDFD00E47631 /* Sources */ = {
+		42061F482475D0CC00E47631 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42061F102475BDFD00E47631 /* jwplayer_ios_sdk_demoTests.swift in Sources */,
+				42061F512475D0CD00E47631 /* jwplayer_ios_sdk_demoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42061F122475BDFD00E47631 /* Sources */ = {
+		42061F532475D0CD00E47631 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42061F1B2475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.swift in Sources */,
+				42061F5C2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		42061F0D2475BDFD00E47631 /* PBXTargetDependency */ = {
+		42061F4E2475D0CC00E47631 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42061EF42475BDFB00E47631 /* jwplayer_ios_sdk_demo */;
-			targetProxy = 42061F0C2475BDFD00E47631 /* PBXContainerItemProxy */;
+			target = 42061F352475D0CA00E47631 /* jwplayer_ios_sdk_demo */;
+			targetProxy = 42061F4D2475D0CC00E47631 /* PBXContainerItemProxy */;
 		};
-		42061F182475BDFD00E47631 /* PBXTargetDependency */ = {
+		42061F592475D0CD00E47631 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42061EF42475BDFB00E47631 /* jwplayer_ios_sdk_demo */;
-			targetProxy = 42061F172475BDFD00E47631 /* PBXContainerItemProxy */;
+			target = 42061F352475D0CA00E47631 /* jwplayer_ios_sdk_demo */;
+			targetProxy = 42061F582475D0CD00E47631 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		42061F032475BDFD00E47631 /* LaunchScreen.storyboard */ = {
+		42061F3F2475D0CA00E47631 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				42061F042475BDFD00E47631 /* Base */,
+				42061F402475D0CA00E47631 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42061F442475D0CC00E47631 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42061F452475D0CC00E47631 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -328,7 +324,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		42061F1D2475BDFD00E47631 /* Debug */ = {
+		42061F5E2475D0CD00E47631 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +384,7 @@
 			};
 			name = Debug;
 		};
-		42061F1E2475BDFD00E47631 /* Release */ = {
+		42061F5F2475D0CD00E47631 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -442,18 +438,12 @@
 			};
 			name = Release;
 		};
-		42061F202475BDFD00E47631 /* Debug */ = {
+		42061F612475D0CD00E47631 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"jwplayer_ios_sdk_demo/Preview Content\"";
 				DEVELOPMENT_TEAM = GB658HTQ2Q;
-				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = jwplayer_ios_sdk_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,18 +456,12 @@
 			};
 			name = Debug;
 		};
-		42061F212475BDFD00E47631 /* Release */ = {
+		42061F622475D0CD00E47631 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"jwplayer_ios_sdk_demo/Preview Content\"";
 				DEVELOPMENT_TEAM = GB658HTQ2Q;
-				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = jwplayer_ios_sdk_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +474,7 @@
 			};
 			name = Release;
 		};
-		42061F232475BDFD00E47631 /* Debug */ = {
+		42061F642475D0CD00E47631 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,7 +496,7 @@
 			};
 			name = Debug;
 		};
-		42061F242475BDFD00E47631 /* Release */ = {
+		42061F652475D0CD00E47631 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,7 +518,7 @@
 			};
 			name = Release;
 		};
-		42061F262475BDFD00E47631 /* Debug */ = {
+		42061F672475D0CD00E47631 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -554,7 +538,7 @@
 			};
 			name = Debug;
 		};
-		42061F272475BDFD00E47631 /* Release */ = {
+		42061F682475D0CD00E47631 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -577,43 +561,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42061EF02475BDFB00E47631 /* Build configuration list for PBXProject "jwplayer_ios_sdk_demo" */ = {
+		42061F312475D0CA00E47631 /* Build configuration list for PBXProject "jwplayer_ios_sdk_demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42061F1D2475BDFD00E47631 /* Debug */,
-				42061F1E2475BDFD00E47631 /* Release */,
+				42061F5E2475D0CD00E47631 /* Debug */,
+				42061F5F2475D0CD00E47631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42061F1F2475BDFD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demo" */ = {
+		42061F602475D0CD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42061F202475BDFD00E47631 /* Debug */,
-				42061F212475BDFD00E47631 /* Release */,
+				42061F612475D0CD00E47631 /* Debug */,
+				42061F622475D0CD00E47631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42061F222475BDFD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demoTests" */ = {
+		42061F632475D0CD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42061F232475BDFD00E47631 /* Debug */,
-				42061F242475BDFD00E47631 /* Release */,
+				42061F642475D0CD00E47631 /* Debug */,
+				42061F652475D0CD00E47631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42061F252475BDFD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demoUITests" */ = {
+		42061F662475D0CD00E47631 /* Build configuration list for PBXNativeTarget "jwplayer_ios_sdk_demoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42061F262475BDFD00E47631 /* Debug */,
-				42061F272475BDFD00E47631 /* Release */,
+				42061F672475D0CD00E47631 /* Debug */,
+				42061F682475D0CD00E47631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 42061EED2475BDFB00E47631 /* Project object */;
+	rootObject = 42061F2E2475D0CA00E47631 /* Project object */;
 }
