@@ -15,6 +15,7 @@
 		42061F052475BDFD00E47631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42061F032475BDFD00E47631 /* LaunchScreen.storyboard */; };
 		42061F102475BDFD00E47631 /* jwplayer_ios_sdk_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F0F2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests.swift */; };
 		42061F1B2475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F1A2475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.swift */; };
+		42061F2C2475CA3200E47631 /* JWPlayer_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42061F2B2475CA3200E47631 /* JWPlayer_iOS_SDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		42061F162475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jwplayer_ios_sdk_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42061F1A2475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jwplayer_ios_sdk_demoUITests.swift; sourceTree = "<group>"; };
 		42061F1C2475BDFD00E47631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42061F2B2475CA3200E47631 /* JWPlayer_iOS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JWPlayer_iOS_SDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42061F2C2475CA3200E47631 /* JWPlayer_iOS_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				42061F0E2475BDFD00E47631 /* jwplayer_ios_sdk_demoTests */,
 				42061F192475BDFD00E47631 /* jwplayer_ios_sdk_demoUITests */,
 				42061EF62475BDFB00E47631 /* Products */,
+				42061F282475C46A00E47631 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +138,14 @@
 				42061F1C2475BDFD00E47631 /* Info.plist */,
 			);
 			path = jwplayer_ios_sdk_demoUITests;
+			sourceTree = "<group>";
+		};
+		42061F282475C46A00E47631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42061F2B2475CA3200E47631 /* JWPlayer_iOS_SDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,6 +450,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"jwplayer_ios_sdk_demo/Preview Content\"";
 				DEVELOPMENT_TEAM = GB658HTQ2Q;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = jwplayer_ios_sdk_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +474,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"jwplayer_ios_sdk_demo/Preview Content\"";
 				DEVELOPMENT_TEAM = GB658HTQ2Q;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = jwplayer_ios_sdk_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
