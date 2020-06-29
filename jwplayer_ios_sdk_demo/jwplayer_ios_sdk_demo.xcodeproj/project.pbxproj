@@ -16,7 +16,8 @@
 		42061F512475D0CD00E47631 /* jwplayer_ios_sdk_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F502475D0CD00E47631 /* jwplayer_ios_sdk_demoTests.swift */; };
 		42061F5C2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F5B2475D0CD00E47631 /* jwplayer_ios_sdk_demoUITests.swift */; };
 		42061F712475D71900E47631 /* JWPlayer_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42061F6F2475D70600E47631 /* JWPlayer_iOS_SDK.framework */; };
-		42061F722475D71900E47631 /* JWPlayer_iOS_SDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42061F6F2475D70600E47631 /* JWPlayer_iOS_SDK.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42061F722475D71900E47631 /* JWPlayer_iOS_SDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42061F6F2475D70600E47631 /* JWPlayer_iOS_SDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		42061F772476D00B00E47631 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42061F762476D00B00E47631 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		42061F5D2475D0CD00E47631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42061F6C2475D3A000E47631 /* jwplayer_ios_sdk_demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jwplayer_ios_sdk_demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		42061F6F2475D70600E47631 /* JWPlayer_iOS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JWPlayer_iOS_SDK.framework; sourceTree = "<group>"; };
+		42061F762476D00B00E47631 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				42061F442475D0CC00E47631 /* LaunchScreen.storyboard */,
 				42061F472475D0CC00E47631 /* Info.plist */,
 				42061F6C2475D3A000E47631 /* jwplayer_ios_sdk_demo-Bridging-Header.h */,
+				42061F762476D00B00E47631 /* Secrets.swift */,
 			);
 			path = jwplayer_ios_sdk_demo;
 			sourceTree = "<group>";
@@ -221,7 +224,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = JWPlayer;
 				TargetAttributes = {
 					42061F352475D0CA00E47631 = {
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42061F3E2475D0CA00E47631 /* ViewController.swift in Sources */,
+				42061F772476D00B00E47631 /* Secrets.swift in Sources */,
 				42061F3A2475D0CA00E47631 /* AppDelegate.swift in Sources */,
 				42061F3C2475D0CA00E47631 /* SceneDelegate.swift in Sources */,
 			);
